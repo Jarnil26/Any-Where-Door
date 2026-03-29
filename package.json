@@ -1,0 +1,13 @@
+{
+  "name": "anywhere-remote-desktop-vercel",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "cd app && npm install && cd ../electron && npm install",
+    "app:dev": "cd app && npm run dev",
+    "electron:dev": "cd electron && npx electron .",
+    "dev": "concurrently \"npm run app:dev\" \"npm run electron:dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

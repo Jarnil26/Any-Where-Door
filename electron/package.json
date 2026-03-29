@@ -1,0 +1,11 @@
+{
+  "name": "anywhere-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "electron": "^29.1.1"
+  }
+}
